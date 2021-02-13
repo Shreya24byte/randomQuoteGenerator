@@ -1,0 +1,65 @@
+:root{
+    --primary-color: darkblue;
+    --secondary-color:aliceblue;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--primary-color);
+}
+#timeOfTheDay {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 100px;
+    color:aliceblue;
+}
+.quote-box{
+    width: 500px;
+    height: 200px;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+.quote-box:hover{
+    box-shadow:10px 10px 15px  rgb(63, 63, 47); 
+}
+.quote-box,.box-head,p,span,i {
+    background-color: var(--secondary-color);
+}
+#quote,#author,.fas{
+    color: var(--primary-color);
+    font-size: 22px;
+}
+.box-head{
+    border-radius: 10px;
+    height: 100px;
+    padding: 25px;
+}
+#quote{
+    text-align: center;
+    margin: 20px auto;
+    letter-spacing: 1px;
+}
+#author{
+    text-align: right;
+    position: bottom;
+    margin-top: 7px;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 3px;
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    margin: 0px 170px 40px 190px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.8;
+}
+button:hover{
+    opacity: 1;
+    transform:scale(1.04);
+    box-shadow:10px 10px 15px rgb(46, 43, 43);
+}
